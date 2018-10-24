@@ -8,3 +8,6 @@ def oxford_comma(array)
         [array].join(", ")
       end
     end
+
+
+a.delete_at(index)
