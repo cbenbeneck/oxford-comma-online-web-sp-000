@@ -11,4 +11,3 @@ def oxford_comma(array)
     end
 
 
-a.delete_at(index)
