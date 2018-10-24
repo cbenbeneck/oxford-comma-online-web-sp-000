@@ -5,5 +5,7 @@ def oxford_comma(array)
         return [array].join(" and ") 
       else array.count != 1 || 2 
         return [array].join(", ")
+        string << "and"
+        return string
       end
     end
