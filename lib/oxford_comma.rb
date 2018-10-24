@@ -6,7 +6,7 @@ def oxford_comma(array)
       else array.count != 1 || 2 
         array.insert(-2, "and ")
         [array].join(", ")
-        strin.chomp(",")
+        str.chomp(",")
       end
     end
 
